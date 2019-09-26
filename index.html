@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="./css/styles.css">
+     <title>Memorama</title>
+</head>
+
+<body>
+     <header class="header">
+          <h1 class="header__title">Memorama con Javascript</h1>
+          <p class="header__timer">Tiempo: <span id="time"></span></p>
+          <button class="header__btn" id="reset">Reiniciar</button>
+     </header>
+     <main class="container"></main>
+     <div class="win-message none" id="win-message">
+          <h2 class="win-message__title">¡felicidades: Ganaste!</h2>
+          <p class="win-message__score">Tiempo: <span id="score"></span></p>
+          <button class="win-message__btn" id="win_reset">Volver a jugar</button>
+     </div>
+     <script src="./js/app.js"></script>
+</body>
+
+</html>
